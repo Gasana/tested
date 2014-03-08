@@ -9,5 +9,5 @@ echo " argument$i=$argument";
 let "i+=1"
 done
 echo "$argument">>names.txt
-echo "$#  Names have been added"
+echo "$# Names have been added"
 
