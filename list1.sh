@@ -1,13 +1,13 @@
 #!/bin/bash
-argument=$#;
-argument=$@;
+arg=$#;
+args=$@;
 
 echo;i=1;
- for argument in "$@";
+ for arg in "$@";
  do
-echo " argument$i=$argument";
+echo " arg$i=$arg";
 let "i+=1"
 done
-echo "$argument">>names.txt
-echo "$# Names have been added"
+echo "$args">>names.txt
+echo "$# Names have been added";
 
